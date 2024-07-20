@@ -52,7 +52,7 @@ function increase() {
     s.innerHTML = "Your Score: " + score + "/3";
     if (score == 3) {
       var image = document.createElement('img');
-      image.src = "images/award.png"
+      image.src = "award.png"
       document.getElementById("image").appendChild(image);
     }
   }
@@ -66,15 +66,3 @@ function check(j) {
 }
 
 
-// }
-// function function1(){
-//   // alert("button was clicked");
-//   i++;
-//   // alert("button was clicked"+i);
-// }
-// var a = 1;
-//       function increase(){
-//             var textBox = document.getElementById("text");
-//             textBox.value = a;
-//             a++;
-//       }
