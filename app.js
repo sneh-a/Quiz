@@ -52,7 +52,7 @@ function increase() {
     s.innerHTML = "Your Score: " + score + "/3";
     if (score == 3) {
       var image = document.createElement('img');
-      image.src = "award.jpeg"
+      image.src = "award.png"
       document.getElementById("image").appendChild(image);
     }
   }
